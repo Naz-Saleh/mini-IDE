@@ -1,66 +1,54 @@
-# Simple Java Text Editor
+# Mini-IDE (Enhanced Java Text Editor)
 
-**PH NotePad** is a simple and light **text editor** (notepad) written in Java.
+A lightweight and functional Mini-IDE built using Java (Swing). This project takes a basic open-source text editor and upgrades it with essential development features like code execution, multi-tab support, and crash protection.
 
-![Programming Java Text Editor](Screenshots/text-editor-writing-icon.svg)
-
-
-* Search tool (to search text/keywords easily in the code) + highlighting the code found.
-
-* Find/Replace text/code.
-
-* Auto completion for Java and C++ keywords (files need to be saved as *.java*/*.cpp*). It can be easily expanded to support pretty much any number of languages.
-
-* Drag and Drop (drag files into the text area and they get loaded).
-
-* Nice image buttons for better UX.
+## 📺 Project Demo
+**[Click Here to Watch the Presentation Video](https://github.com/Naz-Saleh/mini-IDE/blob/main/DemoVideo.mp4)**
 
 
-![Example Java Text Editor](Screenshots/find-replace-word-in-java-text-editor.png)
+---
 
+## 🚀 Key Features (New Upgrades)
 
-## AUTHOR
+To transform this from a simple notepad into a developer tool, I implemented the following major features:
 
-**[Pierre-Henry Soria](http://pierrehenry.be)**
+### 1. Built-in Code Runner ▶️
+- **Supports:** Java, C++, and Python.
+- **Functionality:** Compile and run code directly within the editor. The output is displayed in a built-in console window, eliminating the need for the command line.
 
+### 2. Multi-Tabbed Interface 📑
+- **Productivity:** Open and edit multiple files simultaneously.
+- **Switching:** seamless switching between tabs (e.g., editing a main program and a data file at the same time).
 
-### Contributors 🏅
+### 3. Auto-Save System 💾
+- **Safety:** Automatically saves every open file **every 10 seconds** in the background.
+- **Crash Protection:** Prevents data loss in case of unexpected shutdowns or crashes.
 
-* [Achintha Gunasekara](https://github.com/achinthagunasekara)
+### 4. Status Bar Feedback ✅
+- **Visual Assurance:** Displays real-time status updates (e.g., *"Saved successfully at 10:30 AM"*), ensuring the user knows their actions were processed.
 
-* [Patrick Slagle](https://github.com/patrick-slagle)
+---
 
-* [Marcus Redgrave-Close](https://github.com/marcusjrc)
+## 🛠️ How to Run the Project
 
-* [Ossi Laukkanen](https://github.com/Fitoh)
+1. **Download:** Go to the file list or the `dist/` folder and download **`mini-IDE-by_Naz.jar`**.
+2. **Run:** Double-click the JAR file. 
+   - *Note:* If it doesn't open, ensure Java is installed.
+   - Alternatively, run via command line:
+     ```bash
+     java -jar mini-IDE-by_Naz.jar
+     ```
 
-* [Akashdeep Singh](https://github.com/akashdeepsingh9988)
+---
 
-* [xdvrx1](https://github.com/xdvrx1)
+## 📂 Project Structure
 
-* [Talha Tariq](https://github.com/TT-talhatariq)
+- **`src/`**: Contains the Java source code.
+- **`dist/`**: Contains the executable JAR file.
+- **`docs/`**: Project Report and documentation.
+- **`demo/`**: Presentation video or screenshots.
 
-## CONTACT
+---
 
-* Pierre-Henry Soria: hi [AT] ph7 [D0T] me
-
-* Achintha Gunasekara: contact [AT] achinthagunasekara [D0T] com
-
-
-## DEMO
-
-Download the Jar file and double click to run
-
-Or run `java -jar SimpleJavaTextEditor.jar` from the command line
-
-You can also generate easily a new jar file with the following command when you are in *src/* directory `jar cmvf ../manifest.mf ../SimpleJavaTextEditor.jar simplejavatexteditor/*.class`
-
-
-### Important
-
-**Icons directory and its files must be present on the path when running the application (so you will have to move "*icons/*" into "*src/*" directory)**
-
-
-## LICENSE
-
-Apache License, Version 2.0 or later; See the license.txt file in the notepad folder.
+### 👨‍💻 Developed by
+**Naz Saleh** *Project for CSE323*
